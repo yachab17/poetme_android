@@ -3,4 +3,11 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="colorButton">#FF6633</color>
+    <color name="colorButtonGoogle">#4488f0</color>
+    <color name="colorButtonKakaoBack">#f7e317</color>
+    <color name="colorButtonKakaoFont">#3c1e1e</color>
+    <color name="colorButtonNaver">#1EC800</color>
+
+
 </resources>
