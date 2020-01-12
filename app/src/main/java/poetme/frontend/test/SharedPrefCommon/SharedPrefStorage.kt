@@ -1,9 +1,10 @@
-package poetme.frontend.test.SharedPrefStorage
+package poetme.frontend.test.SharedPrefCommon
 
 import android.content.SharedPreferences
 import androidx.core.content.edit
+import androidx.security.crypto.EncryptedSharedPreferences
 
-class SharedPrefStorage(private val preferences: SharedPreferences) : Storage {
+class SharedPrefStorage (private val preferences: SharedPreferences) : Storage {
 
     override fun getString(key: String, default: String): String =
         preferences.getString(key, default) ?: default

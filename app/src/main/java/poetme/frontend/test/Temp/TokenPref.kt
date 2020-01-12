@@ -1,6 +1,6 @@
-package poetme.frontend.test.SharedPrefStorage
+package poetme.frontend.test.Temp
 
-class Token {
+class TokenPref {
     companion object{
         lateinit var AccessToken: String
         lateinit var RefreshToken: String

@@ -1,4 +1,4 @@
-package poetme.frontend.test.SharedPrefStorage
+package poetme.frontend.test.SharedPrefCommon
 
 import kotlin.reflect.KProperty
 

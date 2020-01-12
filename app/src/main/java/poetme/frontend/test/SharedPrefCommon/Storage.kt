@@ -1,4 +1,4 @@
-package poetme.frontend.test.SharedPrefStorage
+package poetme.frontend.test.SharedPrefCommon
 
 interface Storage {
     fun getString(key: String, default: String = ""): String
