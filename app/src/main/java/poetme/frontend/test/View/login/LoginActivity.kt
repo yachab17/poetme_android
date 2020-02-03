@@ -1,7 +1,8 @@
-package poetme.frontend.test
+package poetme.frontend.test.View.login
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import poetme.frontend.test.R
 
 class LoginActivity : AppCompatActivity() {
 

@@ -1,4 +1,4 @@
-package poetme.frontend.test
+package poetme.frontend.test.View.main
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -9,6 +9,10 @@ import android.widget.Button
 import android.widget.Toast
 
 import kotlinx.android.synthetic.main.activity_start.*
+import poetme.frontend.test.App
+import poetme.frontend.test.R
+import poetme.frontend.test.View.test.TestActivity
+import poetme.frontend.test.isEmailValid
 import java.util.*
 
 
@@ -106,7 +110,8 @@ class StartActivity : AppCompatActivity() {
     private fun clickBtnEmail(){
         val strEmail: String = txtEmail.text.toString() ?: ""
         if(isEmailValid(strEmail)){
-            val intent = Intent(this@StartActivity, SignupActivity::class.java)
+            //val intent = Intent(this@StartActivity, SignupActivity::class.java)
+            val intent = Intent(this@StartActivity, TestActivity::class.java)
             intent.putExtra("email", strEmail)
             startActivity(intent)
         }else{

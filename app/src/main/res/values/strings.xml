@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">poetme_test</string>
+    <string name="api_url">https://api.poetme.com</string>
 </resources>
